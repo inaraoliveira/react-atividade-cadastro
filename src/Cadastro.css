@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+    height: auto;
+    background-color: #d0e5f3;
+}
+
+.contLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+    height: auto;
+    background-color: #863ace;
+}
+
+h1{
+    color: #fff;
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input{
+    margin: 2px;
+    width: 25vw;
+    height: 1vh;
+    padding: 0.7rem;
+    border: none;
+    box-shadow: 2px 2px 2px rgb(104, 104, 104);
+}
+
+input:focus{
+    outline: 0;
+}
+
+#nome{
+    margin-top: 15px;
+}
+
+#senha{
+    margin-bottom: 15px;
+}
+
+#botao{
+    margin: auto;
+    width: 20vw;
+    height: 5vh;
+    border: none;
+    box-shadow: 2px 2px 2px rgb(104, 104, 104);
+}
